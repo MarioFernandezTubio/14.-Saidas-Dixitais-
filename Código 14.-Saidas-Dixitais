@@ -30,7 +30,7 @@ void loop()
   digitalWrite(RELE, LOW);
   	delay(4000); // Esperar 4000 millisegundos
   }
-  else(pulsa == true); // Condición para apagar (pulsar)
+  else // Condición para apagar (pulsar)
   {
   digitalWrite(VERDE, LOW);
   digitalWrite(ROJO, LOW);
